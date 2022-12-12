@@ -1,0 +1,95 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+}
+
+body
+{
+  font-family: calibri;
+  background: rgba(240,240,240,1);
+}
+
+.container
+{
+  padding-top: 1px;
+}
+
+.main_container
+{
+  width:300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding-top: 1px;
+}
+
+.button_container
+{
+  width: 180px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 50px;
+  padding: 5px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.3);
+  position: relative;
+}
+
+.button_name
+{
+  width: 100%;
+  height: 95%;
+  padding: 1% 0;
+  background: linear-gradient(rgba(255,255,525,1),rgba(213,213,213,1));
+  transition: all 1s;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(255,255,255,.3),inset 0 3px 5px rgba(0,0,0,.3),inset 0 -3px 5px rgba(255,255,255,.3);
+  border-radius: 50px;
+}
+
+.button_name>h2
+{
+  margin-top: 18px;
+  margin-left: 20px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  display: inline-block;
+}
+
+.button_name>h2:nth-child(2)
+{
+  margin-left: 60px;
+}
+
+.button
+{
+  width: 60%;
+  height: 95%;
+  background: #000;
+  border-radius: 50px;
+  padding: 1% 0;
+  cursor: pointer;
+  background: linear-gradient(rgba(255,255,525,1),rgba(213,213,213,1));
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  transition: all 1s;
+  position: absolute;
+  top:0;
+  left:0px;
+}
+
+.circle
+{
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  margin-top: 18px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background: linear-gradient(rgba(213,213,213,1),rgba(255,255,525,1));
+}
